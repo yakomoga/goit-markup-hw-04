@@ -1,0 +1,273 @@
+body {
+position: relative;
+width: 1440px;
+height: 2592px;
+background: #FFFFFF;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;    
+box-sizing: border-box;
+left: 0px;
+top: 0px;
+
+/* WHITE
+Header background, team card background
+*/
+background: #FFFFFF;
+/* CORNFLOWER */
+border-bottom: 1px solid #E7E9FC;
+}
+
+nav {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+
+nav>a {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+
+nav>a>span {
+
+    width: 44px;
+    height: 21px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* IRIS */
+    
+    color: #4D5AE5;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px;
+}
+
+nav>ul>li {
+  
+width: 48px;
+height: 24px;
+
+/* Body Medium */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+address {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+
+address>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+}
+
+address>ul>li {
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;    
+    /* Body */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section-slogan {
+  /* Dark-bg */
+
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+
+/* NAVY BLUE */
+
+background: #2E2F42;
+}
+
+.section-slogan>header {
+/* Effective Solutions for Your Business */
+
+
+position: absolute;
+width: 496px;
+height: 120px;
+left: 472px;
+top: 260px;
+
+/* Header 1 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* WHITE */
+
+color: #FFFFFF;
+}
+
+button {
+/* Button */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+
+position: absolute;
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
+
+/* IRIS */
+
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+/* Button Text */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+/* WHITE */
+
+color: #FFFFFF;
+
+}
+.section1 {
+    position: absolute;
+    width: 1128px;
+    height: 104px;
+    left: 156px;
+    top: 792px;    
+}
+
+.section2 {
+    position: absolute;
+width: 1128px;
+height: 412px;
+left: 156px;
+top: 1016px;
+}
+
+.section3 {
+    position: absolute;
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 1548px;
+}
+
+footer {
+    position: absolute;
+width: 1440px;
+height: 312px;
+left: 0px;
+top: 2280px;
+
+}
