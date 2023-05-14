@@ -31,14 +31,14 @@ color: #434455
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--logo-text-color-dark);
 }
 
 .link {
     text-decoration: none;
+    color: var(--reg-text-color);
 }
 
-.link:hover .link:click {
+.menu:hover, .menu:active, .menu:focus {
     color: #404bbf; 
 }
 
@@ -85,6 +85,9 @@ color: #434455
     color: var(--logo-text-color-light);
 }
 
+.logo:hover {
+    color: #404bbf; 
+}
 .logo-text {
     color: var(--logo-text-color-dark)
 }
@@ -110,6 +113,7 @@ nav>ul {
     height: 72px;
     left: 0px;
     top: 0px;
+    color: var(--reg-text-color);
 }
 
 main {
