@@ -78,7 +78,7 @@ color: #434455
     letter-spacing: 0.03em;
     font-style: normal;
     font-size: 18px;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     color: var(--logo-text-color-light);
@@ -102,72 +102,14 @@ nav>ul {
     top: 24px;
 }
 
-nav>ul>li {
-  
-width: 48px;
-height: 24px;
-
-/* Body Medium */
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-
-}
-address {
+.address {
+    font-style: normal;
     position: absolute;
     width: 1440px;
     height: 72px;
     left: 0px;
     top: 0px;
 }
-
-address>ul {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
-}
-
-address>ul>li {
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;    
-    /* Body */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    letter-spacing: 0.02em;
-    /* SLATE */
-    color: #434455;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
 
 main {
     position: absolute;
