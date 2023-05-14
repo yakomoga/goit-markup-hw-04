@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+:root {
+    --reg-fint-size: 16px;
+    --reg-line-height: 24px;
+    --reg-font-weight: 400;
+    --reg-font-family: "Raleway";
+    --logo-text-color: #4d5ae5;
+}
+
 body {
 position: relative;
 width: 1440px;
 height: 2592px;
 background: #FFFFFF;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455
 }
 
 .main-header {
@@ -13,14 +26,14 @@ background: #FFFFFF;
     height: 72px;
     left: 0px;
     top: 0px;    
-box-sizing: border-box;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-border-bottom: 1px solid #E7E9FC;
+    box-sizing: border-box;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
 }
 
-nav {
+.nav {
     position: absolute;
     width: 1440px;
     height: 72px;
@@ -28,59 +41,32 @@ nav {
     top: 0px;
 }
 
-nav>a {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
 
-position: absolute;
-width: 115px;
-height: 24px;
-left: 156px;
-top: 24px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+
+    line-height: 1.17;
     font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-    letter-spacing: 0.03em;
+    font-family: var(--reg-font-family);
+    font-weight: 800;
+    text-decoration: none;
     text-transform: uppercase;
-    /* NAVY BLUE */
+}
+
+.logo>a {
     color: #2E2F42;
 }
-
-nav>a>span {
-
-    width: 44px;
-    height: 21px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    /* IRIS */
-    
-    color: #4D5AE5;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.logo>span {
+    color: var(--logo-text-color);
 }
-
 nav>ul {
     display: flex;
     flex-direction: row;
@@ -247,7 +233,7 @@ color: #FFFFFF;
 
 }
 .section1 {
-    position: absolute;
+    /* position: absolute; */
     width: 1128px;
     height: 104px;
     left: 156px;
@@ -255,21 +241,18 @@ color: #FFFFFF;
 }
 
 .text-block {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
 
-position: absolute;
-width: 264px;
-height: 104px;
-left: 156px;
-top: 792px;
+    width: 264px;
+    height: 104px;
+    left: 156px;
+    top: 792px;
 }
 
 .section2 {
-    position: absolute;
     width: 1128px;
     height: 412px;
     left: 156px;
@@ -277,7 +260,6 @@ top: 792px;
 }
 
 .img-block {
-    display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
@@ -290,7 +272,6 @@ top: 1128px;
 }
 
 .section3 {
-    position: absolute;
     width: 1440px;
     height: 732px;
     left: 0px;
@@ -298,7 +279,6 @@ top: 1128px;
     background: #F4F4FD;
 }
 .team-card {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -322,4 +302,14 @@ footer {
     height: 312px;
     left: 0px;
     top: 2280px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: 30%; /* 4 items fit in a row */
+  /* add other styles as needed */
 }
