@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 body {
 position: relative;
 width: 1440px;
@@ -5,7 +7,7 @@ height: 2592px;
 background: #FFFFFF;
 }
 
-header {
+.main-header {
     position: absolute;
     width: 1440px;
     height: 72px;
@@ -14,12 +16,7 @@ header {
 box-sizing: border-box;
 left: 0px;
 top: 0px;
-
-/* WHITE
-Header background, team card background
-*/
 background: #FFFFFF;
-/* CORNFLOWER */
 border-bottom: 1px solid #E7E9FC;
 }
 
@@ -164,6 +161,16 @@ address>ul>li {
     flex-grow: 0;
 }
 
+
+main {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    background: #ffffff;
+    }
+
 .section-slogan {
   /* Dark-bg */
 
@@ -247,12 +254,39 @@ color: #FFFFFF;
     top: 792px;    
 }
 
+.text-block {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 264px;
+height: 104px;
+left: 156px;
+top: 792px;
+}
+
 .section2 {
     position: absolute;
-width: 1128px;
-height: 412px;
+    width: 1128px;
+    height: 412px;
+    left: 156px;
+    top: 1016px;
+}
+
+.img-block {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 360px;
+height: 300px;
 left: 156px;
-top: 1016px;
+top: 1128px;
 }
 
 .section3 {
@@ -261,13 +295,31 @@ top: 1016px;
     height: 732px;
     left: 0px;
     top: 1548px;
+    background: #F4F4FD;
+}
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1780px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 footer {
     position: absolute;
-width: 1440px;
-height: 312px;
-left: 0px;
-top: 2280px;
-
+    width: 1440px;
+    height: 312px;
+    left: 0px;
+    top: 2280px;
 }
