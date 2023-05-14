@@ -3,7 +3,8 @@
     --reg-line-height: 24px;
     --reg-font-weight: 400;
     --reg-font-family: "Raleway";
-    --logo-text-color: #4d5ae5;
+    --logo-text-color-light: #4d5ae5;
+    --logo-text-color-dark:#2E2F42;;
 }
 
 body {
@@ -18,6 +19,10 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: #434455
+}
+
+.link {
+    text-decoration: none;
 }
 
 .main-header {
@@ -54,19 +59,19 @@ color: #434455
     top: 24px;
 
     line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-style: normal;
     font-size: 18px;
-    font-family: var(--reg-font-family);
+    font-family: "Raleway";
     font-weight: 800;
-    text-decoration: none;
     text-transform: uppercase;
+    color: var(--logo-text-color-light);
 }
 
-.logo>a {
-    color: #2E2F42;
+.logo-text {
+    color: var(--logo-text-color-dark)
 }
-.logo>span {
-    color: var(--logo-text-color);
-}
+
 nav>ul {
     display: flex;
     flex-direction: row;
