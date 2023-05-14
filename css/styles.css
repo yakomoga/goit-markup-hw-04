@@ -110,7 +110,7 @@ main {
     background-color: var(--logo-text-color-dark);
 }
 
-.slogan {
+.section-slogan>h1 {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -164,7 +164,7 @@ color: #FFFFFF;
     color:var(--reg-text-color);
 }
 
-.section-pictures>h2 {
+.section-pictures>h2, .section-team>h2 {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
