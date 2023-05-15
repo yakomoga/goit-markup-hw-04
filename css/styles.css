@@ -45,7 +45,7 @@ main {
 
 .link {
     text-decoration: none;
-    color: var(--reg-text-color);
+    color: var(--logo-text-color-dark);
 }
 
 .link:hover {
@@ -141,6 +141,22 @@ line-height: 24px;
 cursor: pointer;
 
 color: #FFFFFF;
+}
+
+.button-portfolio {
+background-color: #4D5AE5;
+letter-spacing: 0.04em;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+cursor: pointer;
+
+color: var(--logo-text-color-dark);
 }
 
 .button:hover, .button:focus {
