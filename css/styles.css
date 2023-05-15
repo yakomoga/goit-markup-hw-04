@@ -158,7 +158,7 @@ color: var(--logo-text-color-light);
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
-    color: var(--reg-text-color);
+    color: #FFFFFF;
     background-color: var(--reg-hover-color) 
 }
 
