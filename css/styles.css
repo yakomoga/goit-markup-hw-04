@@ -48,7 +48,7 @@ main {
     color: var(--reg-text-color);
 }
 
-.menu:hover, .menu:active, .menu:focus {
+.link:hover, .link:active, .link:focus {
     color: #404bbf; 
 }
 
