@@ -86,7 +86,7 @@ main {
 }
 
 .logo:hover {
-    color: #404bbf; 
+    color: var(--reg-hover-color);
 }
 
 .logo-text {
