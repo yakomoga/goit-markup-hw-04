@@ -90,8 +90,13 @@ main {
 .logo:hover {
     color: #404bbf; 
 }
+
 .logo-text {
     color: var(--logo-text-color-dark)
+}
+
+.bottom-logo-text {
+    color: #f4f4fd
 }
 
 .address {
