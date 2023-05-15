@@ -152,10 +152,15 @@ font-size: 16px;
 line-height: 1.5;
 cursor: pointer;
 
-color: var(--logo-text-color-dark);
+color: var(--logo-text-color-light);
 }
 
-.button:hover, .button:focus {
+.button-portfolio:hover, .button-portfolio:focus {
+color: #FFFFFF;
+background-color: #404BBF 
+}
+
+.button:hover, .button:focus, .button:active{
     background-color: #404BBF;
 }
 
