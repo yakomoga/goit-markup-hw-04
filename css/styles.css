@@ -105,7 +105,7 @@ main {
     color: var(--reg-text-color);
 }
 
-.section-slogan {
+.first-section {
   /* Dark-bg */
     font-size: 56px;
     line-height: 1.07;
@@ -143,7 +143,7 @@ color: #FFFFFF;
     background-color: #404BBF;
 }
 
-.section-values {
+.second-section {
     width: 1128px;
     height: 104px;
     left: 156px;
@@ -182,7 +182,7 @@ color: #FFFFFF;
 
 }
 
-.section-team {
+.fourth-section {
     width: 1440px;
     height: 732px;
     left: 0px;
