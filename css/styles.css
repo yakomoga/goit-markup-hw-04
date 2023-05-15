@@ -6,6 +6,7 @@
     --logo-text-color-light: #4d5ae5;
     --logo-text-color-dark:#2E2F42;;
     --reg-text-color:#434455;
+    --reg-hover-color:#404bbf;
 }
 
 body {
@@ -48,12 +49,8 @@ main {
     color: var(--logo-text-color-dark);
 }
 
-.link:hover {
-    color: #404bbf; 
-}
-
-.link:active, .link:focus {
-    color: #404bbf; 
+.link:hover, .link:active, .link:focus {
+    color:var(--reg-hover-color); 
 }
 
 .main-header {
