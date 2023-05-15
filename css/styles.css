@@ -43,6 +43,7 @@ main {
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    color:var(--reg-text-color)
 }
 
 .link {
@@ -157,12 +158,13 @@ color: var(--logo-text-color-light);
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
-color: #FFFFFF;
-background-color: #404BBF 
+    color: var(--reg-text-color);
+    background-color: var(--reg-hover-color) 
 }
 
-.button:hover, .button:focus, .button:active{
-    background-color: #404BBF;
+.button:hover, .button:focus, .button:active {
+    color: var(--reg-text-color);
+    background-color: var(--reg-hover-color);
 }
 
 .second-section {
