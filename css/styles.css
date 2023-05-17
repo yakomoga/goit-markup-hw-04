@@ -11,9 +11,6 @@
 }
 
 body {
-  position: relative;
-  width: 1440px;
-  height: 2592px;
   background: #ffffff;
 
   font-family: "Roboto", sans-serif;
@@ -25,11 +22,6 @@ body {
 }
 
 main {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background: #ffffff;
 }
 
@@ -58,23 +50,9 @@ main {
 }
 
 .main-header {
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
   box-sizing: border-box;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
-}
-
-.nav {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
 }
 
 .logo {
@@ -102,11 +80,6 @@ main {
 
 .address {
   font-style: normal;
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
   color: var(--reg-text-color);
 }
 
@@ -173,10 +146,6 @@ main {
 }
 
 .second-section {
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 
 .hidden-header {
@@ -212,10 +181,6 @@ main {
 }
 
 .fourth-section {
-  width: 1440px;
-  height: 732px;
-  left: 0px;
-  top: 1548px;
   background: #f4f4fd;
 }
 
