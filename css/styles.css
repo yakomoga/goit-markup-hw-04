@@ -139,9 +139,6 @@ main {
   background-color: var(--reg-hover-color);
 }
 
-.second-section {
-}
-
 .hidden-header {
   visibility: hidden;
 }
