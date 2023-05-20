@@ -47,7 +47,6 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: #ffffff;
-  color: var(--reg-text-color);
 }
 
 .link:hover,
