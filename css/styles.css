@@ -40,7 +40,7 @@ main {
 
 .link {
   text-decoration: none;
-  /* color: var(--logo-text-color-dark); */
+  color: var(--logo-text-color-dark);
 }
 
 .link:hover,
