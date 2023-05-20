@@ -88,12 +88,6 @@ main {
 }
 
 .first-section {
-  /* Dark-bg */
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
   background-color: var(--logo-text-color-dark);
 }
 
