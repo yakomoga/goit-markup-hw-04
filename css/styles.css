@@ -62,6 +62,17 @@ main {
   border-color: #e7e9fc;
 }
 
+.header-block {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   line-height: 1.17;
   letter-spacing: 0.03em;
