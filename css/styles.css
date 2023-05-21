@@ -39,6 +39,10 @@ main {
   gap: 40px;
 }
 
+.list-second-section {
+  gap: 24px;
+}
+
 li {
   gap: 40px;
 }
@@ -184,7 +188,13 @@ nav {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .values-header {
@@ -197,6 +207,7 @@ nav {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-text-color-dark);
+  margin-bottom: 8px;
 }
 
 .values-text {
