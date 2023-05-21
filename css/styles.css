@@ -123,6 +123,11 @@ nav {
   padding: 188px 0;
 }
 
+.second-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .slogan-header {
   font-size: 56px;
   line-height: 1.07;
@@ -178,7 +183,7 @@ nav {
   background-color: var(--reg-hover-color);
 }
 
-.hidden-header {
+.visually-hidden {
   visibility: hidden;
 }
 
