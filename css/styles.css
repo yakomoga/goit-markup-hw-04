@@ -187,3 +187,7 @@ main {
   letter-spacing: 2%;
   color: var(--prtf-button-bckgr-color);
 }
+
+img {
+  display: block;
+}
