@@ -36,6 +36,11 @@ main {
 .list {
   list-style: none;
   display: flex;
+  gap: 40px;
+}
+
+li {
+  gap: 40px;
 }
 
 .link {
@@ -48,6 +53,12 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.last-list-item {
+  margin-right: 0;
 }
 
 .link:hover,
