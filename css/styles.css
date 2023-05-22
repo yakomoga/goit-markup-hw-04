@@ -40,6 +40,7 @@ main {
 }
 
 .list-second-section {
+  flex-basis: calc((100% - 72px) / 4);
   gap: 24px;
 }
 
