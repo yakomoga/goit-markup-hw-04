@@ -39,9 +39,16 @@ main {
   gap: 40px;
 }
 
-.list-second-section {
-  flex-basis: calc((100% - 72px) / 4);
+.list-smaller-gap {
   gap: 24px;
+}
+
+.list-four-items {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.list-item-fourth-section {
+  flex-basis: calc((100% - 16px) / 4);
 }
 
 li {
