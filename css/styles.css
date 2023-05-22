@@ -43,6 +43,10 @@ main {
   gap: 24px;
 }
 
+.list-third-section {
+  flex-basis: calc((100% - 48px) / 4);
+}
+
 .list-four-items {
   flex-basis: calc((100% - 72px) / 4);
 }
