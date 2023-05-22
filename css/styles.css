@@ -132,6 +132,10 @@ nav {
   padding-bottom: 120px;
 }
 
+.third-section {
+  padding-bottom: 120px;
+}
+
 .slogan-header {
   font-size: 56px;
   line-height: 1.07;
@@ -218,6 +222,8 @@ nav {
 }
 
 .section-header {
+  margin-bottom: 72px;
+
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
