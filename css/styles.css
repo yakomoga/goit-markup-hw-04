@@ -51,6 +51,10 @@ main {
 }
 
 .list-third-section {
+  flex-basis: calc((100% - 3 * 16px) / 3);
+}
+
+.list-fourth-section {
   flex-basis: calc((100% - 48px) / 4);
 }
 
