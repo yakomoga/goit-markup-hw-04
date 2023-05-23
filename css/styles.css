@@ -8,6 +8,7 @@
   --reg-text-color: #434455;
   --reg-hover-color: #404bbf;
   --prtf-button-bckgr-color: #f4f4fd;
+  --btn-border-color: e7e9fc;
 }
 
 .color-reg {
@@ -37,6 +38,12 @@ main {
   list-style: none;
   display: flex;
   gap: 40px;
+}
+
+.list-portfolio {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .list-smaller-gap {
@@ -92,7 +99,7 @@ li {
   background: #ffffff;
   border-bottom: 1px;
   border-style: solid;
-  border-color: #e7e9fc;
+  border-color: var(--btn-border-color);
 }
 
 .header-block {
@@ -182,6 +189,10 @@ nav {
 }
 
 .portfolio-button {
+  padding: 12px 24px;
+  border: 1px solid var(--btn-border-color);
+  border-radius: 4px;
+
   background-color: var(--prtf-button-bckgr-color);
   letter-spacing: 0.04em;
 
@@ -199,6 +210,11 @@ nav {
 .portfolio-button:focus {
   color: #ffffff;
   background-color: var(--reg-hover-color);
+}
+
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .button:hover,
