@@ -99,7 +99,7 @@ li {
   background: #ffffff;
   border-bottom: 1px;
   border-style: solid;
-  border-color: var(--btn-border-color);
+  border-color: 1px solid var(--btn-border-color);
 }
 
 .header-block {
