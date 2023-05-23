@@ -251,6 +251,8 @@ nav {
 }
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--logo-text-color-dark);
 }
 
