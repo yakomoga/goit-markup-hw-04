@@ -265,6 +265,10 @@ nav {
   color: var(--prtf-button-bckgr-color);
 }
 
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 img {
   display: block;
 }
