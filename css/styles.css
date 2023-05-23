@@ -8,7 +8,7 @@
   --reg-text-color: #434455;
   --reg-hover-color: #404bbf;
   --prtf-button-bckgr-color: #f4f4fd;
-  --btn-border-color: e7e9fc;
+  --btn-border-color: #e7e9fc;
 }
 
 .color-reg {
@@ -103,7 +103,7 @@ li {
   background: #ffffff;
   border-bottom: 1px;
   border-style: solid;
-  border-color: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--btn-border-color);
 }
 
 .header-block {
