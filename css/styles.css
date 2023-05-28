@@ -44,6 +44,7 @@ main {
 }
 
 .list-portfolio {
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
@@ -200,17 +201,14 @@ nav {
   padding: 12px 24px;
   border: 1px solid var(--btn-border-color);
   border-radius: 4px;
-
   background-color: var(--prtf-button-bckgr-color);
   letter-spacing: 0.04em;
-
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-
   color: var(--logo-text-color-light);
 }
 
@@ -218,6 +216,7 @@ nav {
 .portfolio-button:focus {
   color: #ffffff;
   background-color: var(--reg-hover-color);
+  border: 1px solid transparent;
 }
 
 .portfolio-section {
