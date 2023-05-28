@@ -123,6 +123,7 @@ li {
 }
 
 .main-header {
+  height: 72px;
   background: #ffffff;
   border-bottom: 1px;
   border-style: solid;
