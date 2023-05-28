@@ -37,6 +37,9 @@ main {
 .list {
   list-style: none;
   display: flex;
+}
+
+.list-header {
   gap: 40px;
 }
 
